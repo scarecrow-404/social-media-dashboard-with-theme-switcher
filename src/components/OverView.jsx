@@ -10,8 +10,8 @@ function OverView({ isDarkMode }) {
   return (
     <div className={`p-10 ${isDarkMode ? "bg-[hsl(230,17%,14%)]" : ""}`}>
       <h1
-        className={`font-bold text-[hsl(228,12%,44%)] text-4xl ${
-          isDarkMode ? "text-[hsl(0,0%,100%)]" : ""
+        className={`font-bold text-4xl ${
+          isDarkMode ? "text-[hsl(0,0%,100%)]" : "text-[hsl(228,12%,44%)]"
         }`}
       >
         Overview - Today
