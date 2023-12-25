@@ -5,7 +5,7 @@ import OverView from "./components/OverView";
 
 function App() {
   const [isDarkMode, setIsDArkMode] = useState(false);
-  console.log(isDarkMode);
+  //console.log(isDarkMode);
   const ToggleSwitch = ({ setIsDarkMode, isDarkMode }) => {
     const [isChecked, setIsChecked] = useState(isDarkMode);
 
