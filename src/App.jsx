@@ -33,14 +33,14 @@ function App() {
             onChange={handleToggle}
           />
           <div
-            className={`block group-hover:bg-gradient-to-r group-hover:from-[hsl(210,78%,56%)] group-hover:to-[hsl(146,68%,55%)] bg-[#CDD7EE] w-10 h-6 rounded-full ${
+            className={` group-hover:bg-gradient-to-r group-hover:from-[hsl(210,78%,56%)] group-hover:to-[hsl(146,68%,55%)] bg-[#CDD7EE] w-10 h-6 rounded-full ${
               isChecked
                 ? "bg-gradient-to-r from-[hsl(210,78%,56%)] to-[hsl(146,68%,55%)]"
                 : "bg-[hsl(230,22%,74%)]"
             }`}
           ></div>
           <div
-            className={` dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isDarkMode? "bg-[hsl(232,19%,15%)]":""} ${
+            className={` absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isDarkMode? "bg-red-800":""} ${
               !isChecked ? "translate-x-full" : "translate-x-0"
             } `}
           ></div>
