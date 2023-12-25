@@ -40,7 +40,7 @@ function App() {
             }`}
           ></div>
           <div
-            className={` absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isDarkMode? "bg-red-800":""} ${
+            className={` absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isDarkMode? "bg-[hsl(232,19%,15%)]":""} ${
               !isChecked ? "translate-x-full" : "translate-x-0"
             } `}
           ></div>
