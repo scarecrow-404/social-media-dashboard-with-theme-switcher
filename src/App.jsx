@@ -36,7 +36,7 @@ function App() {
             className={` group-hover:bg-gradient-to-r group-hover:from-[hsl(210,78%,56%)] group-hover:to-[hsl(146,68%,55%)] bg-[#CDD7EE] w-10 h-6 rounded-full ${
               isChecked
                 ? "bg-gradient-to-r from-[hsl(210,78%,56%)] to-[hsl(146,68%,55%)]"
-                : "bg-[hsl(230,22%,74%)]"
+                : "bg-red-800"
             }`}
           ></div>
           <div
@@ -53,7 +53,7 @@ function App() {
       <div className={`${isDarkMode ? "bg-[hsl(230,17%,14%)]" : ""}`}>
         <div
           className={`absolute w-[100%] h-[300px] z-20 rounded-b-3xl ${
-            isDarkMode ? "bg-[hsl(230,17%,16%)]" : "bg-[hsl(225,100%,98%)]"
+            isDarkMode ? " bg-yellow-200" : "bg-[hsl(225,100%,98%)]"
           } `}
         ></div>
 
